@@ -1,0 +1,20 @@
+body,html {	height:100%;scrollbar-face-color:#E1EFF4; scrollbar-highlight-color:#FFFFFF; scrollbar-shadow-color:#B2CBE0;	scrollbar-3dlight-color:#B7D8ED;scrollbar-arrow-color:#7799B6;scrollbar-track-color:#E8E8E8;scrollbar-darkshadow-color:#E1EFF4;}
+body,td,th {	font-size: 12px;	color:#404040; font-family:Arial;}
+body,form,ul,li {	margin:0; padding:0; list-style:none;}
+textarea { margin-top:2px; margin-bottom:2px;}
+a { color: #404040;	text-decoration: none;}
+a:hover {	text-decoration:underline; color: #FF0000;}
+.red,.red:hover { color:#FF0000;}
+.gray,.gray:hover { color:#666;}
+.white,.white a:hover { color:#FFF;}
+.blue,.blue:hover { color:#0099FF;}
+.t14 { font-size:14px;}
+.t12 { font-size:12px;}
+a,area { blr:expression(this.onFocus=this.blur()) } /* for IE */
+:focus { outline: none; } /* for Firefox */ 
+
+#top_window{background:url(/comm/skin/images/bg.png) repeat-x left top; height:15%; overflow:hidden;}
+#left_window{background:url(/comm/skin/images/leftBg.png) repeat-y; width:156px;height:85%;float:left}
+#main_window{float:left}
+.text-align{display:block;text-align:center;}
+.line{height:1px;margin:0px auto;padding:0px;background-color:#D5D5D5;overflow:hidden;}
