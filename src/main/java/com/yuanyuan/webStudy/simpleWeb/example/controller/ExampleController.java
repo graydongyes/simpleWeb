@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -26,9 +27,15 @@ public class ExampleController extends BaseController{
 	public ModelAndView query(HttpServletRequest request, ExampleEntity comm) throws Exception{
 		Map<String, Object> resultMap = new HashMap<String, Object>();
 		Map<String,Object> param = new HashMap<String, Object>();
+		if(StringUtils.hasText(comm.getCol1())){
 			param.put("col1", comm.getCol1());
+		}
+		if(StringUtils.hasText(comm.getCol2())){
 			param.put("col2", comm.getCol2());
+		}
+		if(StringUtils.hasText(comm.getCol3())){
 			param.put("col3", comm.getCol3());
+		}
 		List<ExampleEntity> commList = exampleDao.queryCommEntitys(param);
 		resultMap.put("list", commList);
 		return new ModelAndView("/example/list", "map", resultMap);

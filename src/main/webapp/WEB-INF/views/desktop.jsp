@@ -17,9 +17,9 @@
 	<div id="left_window">
 	<ul>
 	<li class="text-align"><a href="/yuan/example/queryByParam.htm" target="main_page">示例</a></li>
-	<li class="text-align"><a>2</a></li>
-	<li class="text-align"><a>2</a></li>
-	<li class="text-align"><a>2</a></li>
+	<li class="text-align"><a>用户管理</a></li>
+	<li class="text-align"><a>...</a></li>
+	<li class="text-align"><a>...</a></li>
 	
 	</ul>
 	</div>
