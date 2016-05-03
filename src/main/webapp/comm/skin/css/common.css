@@ -13,8 +13,8 @@ a:hover {	text-decoration:underline; color: #FF0000;}
 a,area { blr:expression(this.onFocus=this.blur()) } /* for IE */
 :focus { outline: none; } /* for Firefox */ 
 
-#top_window{background:url(/comm/skin/images/bg.png) repeat-x left top; height:15%; overflow:hidden;}
-#left_window{background:url(/comm/skin/images/leftBg.png) repeat-y; width:156px;height:85%;float:left}
+#top_window{background:url(/comm/skin/images/bg.png) repeat-x left top; height:10%; overflow:hidden;}
+#left_window{background:url(/comm/skin/images/leftBg.png) repeat-y; width:156px; height:90%;float:left}
 #main_window{float:left}
 .text-align{display:block;text-align:center;}
 .line{height:1px;margin:0px auto;padding:0px;background-color:#D5D5D5;overflow:hidden;}
