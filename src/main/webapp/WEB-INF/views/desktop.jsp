@@ -8,7 +8,7 @@
 <link href="/comm/skin/css/common.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="/comm/skin/js/main.js" />
 </head>
-<body style="overflow:hidden;">
+<body id="parent_Box">
 <script type="text/javascript">
 </script>
 	<div id="top_window" style="text-align:center;">

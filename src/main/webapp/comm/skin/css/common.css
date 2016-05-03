@@ -13,8 +13,15 @@ a:hover {	text-decoration:underline; color: #FF0000;}
 a,area { blr:expression(this.onFocus=this.blur()) } /* for IE */
 :focus { outline: none; } /* for Firefox */ 
 
-#top_window{background:url(/comm/skin/images/bg.png) repeat-x left top; height:10%; overflow:hidden;}
-#left_window{background:url(/comm/skin/images/leftBg.png) repeat-y; width:156px; height:90%;float:left}
-#main_window{float:left}
+#parent_Box{height:100%; width:100%; overflow:hidden;}
+#top_window{position:relative; background:url(/comm/skin/images/bg.png) repeat-x left top; width:100%; height:90px; overflow:hidden;}
+#left_window{position:absolute; top: 90px; bottom: 0px; background:url(/comm/skin/images/leftBg.png) repeat-y; width:110px; height:auto; margin:0; overflow:hidden;}
+#main_window{position:absolute; left:111px; top:90px; right:0px; overflow:hidden;}
+
+/* #parent_Box{height:100%; width:100%; overflow:hidden;}
+#top_window{clear:both; background:url(/comm/skin/images/bg.png) repeat-x left top; width:100%; height:90px; overflow:hidden;}
+#left_window{position: absolute; top: 90px; bottom: 0px; background:url(/comm/skin/images/leftBg.png) repeat-y; height:auto; width:110px; margin:0; overflow:hidden;}
+#main_window{position: absolute; left:110px; right:0px; margin:0; overflow:hidden;} */
+
 .text-align{display:block;text-align:center;}
 .line{height:1px;margin:0px auto;padding:0px;background-color:#D5D5D5;overflow:hidden;}
