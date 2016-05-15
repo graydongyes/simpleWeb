@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>simpleWeb</title>
 <link href="/comm/skin/css/common.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="/comm/skin/js/main.js" />
+<script type="text/javascript" src="/comm/skin/js/main.js" ></script>
 </head>
 <body id="parent_Box">
 <script type="text/javascript">
