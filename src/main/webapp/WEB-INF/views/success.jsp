@@ -5,44 +5,6 @@
 <head>
 	<title>simple-web</title>
 	<script type="text/javascript" src="/comm/skin/js/jquery-1.7.1.min.js" ></script>
-	<link rel="stylesheet" type="text/css" href="/comm/skin/css/jquery.autocomplete.css" />
-<!-- 	<script type="text/javascript" src="/comm/skin/js/jquery.autocomplete.min.js" ></script> -->
-	<script type="text/javascript" src="/comm/skin/js/jquery.autocomplete.js" ></script>
-    <script type="text/javascript">
-        $(document).ready(function(){
-        	
-        	 var arr = [{
-	     			'id':'id1',
-	        		'val':'value1'
-     			},
-                {
-       				'id':'id2',
-    				'val':'value2'
-                },
-                {
-        			'id':'id3',
-                	'val':'value3'
-                }];
-        	
-       		 $('#down').AutoComplete({
-                    'data': function (){
-                    	$(arr).each(function(i,e){
-                       		e.value = e.val;
-                       		e.label = e.val;
-                       	});
-                    	return arr;
-                    },
-                    'width':280,
-                    'listStyle': 'custom',
-                    'maxHeight': 480,
-                    'createItemHandler': function(index, data){
-                    	var div = $("<div></div>");
-                        var cell2_1 = $("<div></div>").append(data.label).appendTo(div);
-                        return div;
-                    }
-                }).AutoComplete('show');
-        });
-    </script>
 </head>
 <body>  
 hello, welcome to homepage
